@@ -1,0 +1,26 @@
+program: main.py
+method: grid
+metric:
+  goal: maximize
+  name: episodic_reward
+parameters:
+  tree-depth:
+    values: [0, 1, 2, 3, 4] #[5, 6]
+  game:
+    values: ['space_invaders', 'asteroids', 'breakout', 'beam_rider', 'frostbite']
+  use_pretrained:
+    values: [True]
+  evaluate:
+    values: [True]
+  op-scale-factor:
+    values: [1.025]
+  override-default-op-factor:
+    values: [False]
+  multiplicative-op-factor:
+    values: [False]
+  evaluation-episodes:
+    values: [150]
+  prunning-std-thresh:
+    values: [1000] #[0.1, 0.5, 1, 2, 4]
+  seed:
+    values: [1, 2, 3, 4, 5]
