@@ -1,0 +1,14 @@
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/asteroids.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/beam_rider.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/boxing.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/breakout.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/enduro.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/freeway.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/frostbite.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/hero.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/montezuma_revenge.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/ms_pacman.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/pong.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/qbert.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/seaquest.pth
+https://github.com/Kaixhin/Rainbow/releases/download/1.3/space_invaders.pth

@@ -4,9 +4,9 @@
 2. Clone rainbow project, version 1.3:
 ``git clone -b 1.3 https://github.com/Kaixhin/Rainbow.git $PROJECT_DIR/Rainbow``
 3. Create pretrained agents dir:
-``mkdir $PROJECT_DIR/bcts/pretrained``
-4. Download agent(s) of your choice into `$PROJECT_DIR/bcts/pretrained` from:
-https://github.com/Kaixhin/Rainbow/releases/tag/1.3
+``mkdir $PROJECT_DIR/pretrained``
+4. Download agent(s) of your choice into `cd $PROJECT_DIR/pretrained`:
+`wget -i ../pretrained_paths.txt`
 6. Based on the docker instructions from https://github.com/NVlabs/cule, build docker file using docker: `docker run -v $PROJECT_DIR:/mount ... `
 7. Login to wandb or skip by pressing ...
 
