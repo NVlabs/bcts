@@ -18,13 +18,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Clone the project to get the Dockerfile and build by running `docker build -t bcts .`
+Clone the project to get the Dockerfile and build by running 
+```
+docker build -t bcts .
+```
 
 ### Usage
 
-1. Start the docker: `docker run --runtime=nvidia -it bcts /bin/bash`
-2. Run the code: `cd bcts; python main.py` 
-   See main.py for optional parameters. For example, for tree depth 2 run: `python main.py --tree-depth=2`
+1. Start the docker: 
+   ```
+   docker run --runtime=nvidia -it bcts /bin/bash
+   ```
+3. Run the code: 
+   ```
+   cd bcts; python main.py
+   ``` 
+   See main.py for optional parameters. For example, for tree depth 2 run: 
+   ```
+   python main.py --tree-depth=2
+   ```
 
 ## License
 
