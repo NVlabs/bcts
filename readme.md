@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Docker 19 or newer.
-- Create an NGC account by visiting the [NGC website](https://ngc.nvidia.com/signup) and following the instructions. This will grant you access to the base docker image and ability to run on NVIDIA GPU.
+- Acess to NVIDIA Docker Catalog. Visit the [NGC website](https://ngc.nvidia.com/signup) and follow the instructions. This will grant you access to the base docker image (from the Dockerfile) and ability to run on NVIDIA GPU using the nvidia runtime flag.
 
 
 ### Installing
