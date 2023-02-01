@@ -1,3 +1,9 @@
+# BCTS
+
+# Installation
+
+# Example
+
 1. Set your local project folder to variable `export PROJECT_DIR=your_proj_dir_full_path`
 1. Clone bcts project:
  ``git clone https://github.com/galdl/bcts.git $PROJECT_DIR/bcts``
