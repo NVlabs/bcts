@@ -24,6 +24,7 @@ Clone the project to get the Dockerfile and build by running `docker build -t bc
 
 1. Start the docker: `docker run --runtime=nvidia -it bcts /bin/bash`
 2. Run the code: `cd bcts; python main.py` 
+   See main.py for optional parameters. For example, for tree depth 2 run: `python main.py --tree-depth=2`
 
 ## License
 
