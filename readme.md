@@ -35,19 +35,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 We urge anyone using this work (code or paper) to cite:
 
 @article{dalal2021improve,
-
   title={Improve agents without retraining: Parallel tree search with off-policy correction},
-  
   author={Dalal, Gal and Hallak, Assaf and Dalton, Steven and Mannor, Shie and Chechik, Gal and others},
-  
   journal={Advances in Neural Information Processing Systems},
-  
   volume={34},
-  
   pages={5518--5530},
-  
   year={2021}
-  
 }
 
 
