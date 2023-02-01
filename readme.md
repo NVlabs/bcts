@@ -45,22 +45,16 @@ This project is licensed under the NVIDIA License.
 ## Acknowledgments
 
 If you use this project please cite:
-
+```
 @article{hallak2021improve,
-
   title={Improve agents without retraining: Parallel tree search with off-policy correction},
-  
   author={Hallak, Assaf and Dalal, Gal and Dalton, Steven and Froisio, Iuro and Mannor, Shie and Chechik, Gal},
-  
   journal={Advances in Neural Information Processing Systems},
-  
   volume={34},
-  
   pages={5518--5530},
-  
   year={2021}
-  
 }
+```
 
 
 
