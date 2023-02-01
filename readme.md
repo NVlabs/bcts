@@ -12,19 +12,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Docker
-- Create an NGC account by visiting the [NGC website](https://ngc.nvidia.com/signup) and following the instructions.
+- Docker 19 or newer.
+- Create an NGC account by visiting the [NGC website](https://ngc.nvidia.com/signup) and following the instructions. This will grant you access to the base docker image and ability to run on NVIDIA GPU.
 
 
 ### Installing
 
-Download the "Dockerfile" file from the repository in a new folder. 
-
-Run `docker build -t bcts .`
+Clone the project to get the Dockerfile and build by running `docker build -t bcts .`
 
 ### Usage
 
-You can use the `bcts.py` module in your own project or run the example script `example.py` to see the BCTS algorithm in action.
+1. Start the docker: `docker run --runtime=nvidia -it bcts /bin/bash'
+2. Run the code: `cd bcts; python main.py' 
 
 ## License
 
