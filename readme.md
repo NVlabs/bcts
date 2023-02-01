@@ -18,11 +18,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Clone the repository to your local machine and navigate to the project directory:
+Download the Dockerfile file from the repository in a new folder. 
 
-git clone https://github.com/[YOUR-USERNAME]/bcts.git
-cd bcts
-
+Run `docker build -t bcts .`
 
 ### Usage
 
