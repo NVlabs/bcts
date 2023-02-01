@@ -42,3 +42,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - The authors of the original research paper on BCTS.
 - The developers and maintainers of the packages used in this implementation.
+
+## NVIDIA GPU Usage
+
+If you want to use NVIDIA GPU for running the BCTS algorithm, you need to have an [NGC](https://ngc.nvidia.com) account and pull the NVIDIA Docker images.
+
+1. Create an NGC account by visiting the [NGC website](https://ngc.nvidia.com/signup) and following the instructions.
+2. Install NVIDIA Docker by following the [installation instructions](https://github.com/NVIDIA/nvidia-docker).
+
+
+
+
