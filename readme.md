@@ -22,22 +22,22 @@ Clone the project to get the Dockerfile and build by running `docker build -t bc
 
 ### Usage
 
-1. Start the docker: `docker run --runtime=nvidia -it bcts /bin/bash'
-2. Run the code: `cd bcts; python main.py' 
+1. Start the docker: `docker run --runtime=nvidia -it bcts /bin/bash`
+2. Run the code: `cd bcts; python main.py` 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the NVIDIA License.
 
 ## Acknowledgments
 
-We urge anyone using this work (code or paper) to cite:
+If you use this project please cite:
 
-@article{dalal2021improve,
+@article{hallak2021improve,
 
   title={Improve agents without retraining: Parallel tree search with off-policy correction},
   
-  author={Dalal, Gal and Hallak, Assaf and Dalton, Steven and Mannor, Shie and Chechik, Gal and others},
+  author={Hallak, Assaf and Dalal, Gal and Dalton, Steven and Froisio, Iuro and Mannor, Shie and Chechik, Gal},
   
   journal={Advances in Neural Information Processing Systems},
   
