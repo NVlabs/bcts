@@ -4,7 +4,7 @@ This repository contains an implementation of the Bellman Corrected Tree Search 
 
 [Improve Agents without Retraining: Parallel Tree Search with Off-Policy Correction (NeurIPS 2021)]( https://proceedings.neurips.cc/paper/2021/file/2bd235c31c97855b7ef2dc8b414779af-Paper.pdf)
 
-The BCTS algorithm is a search-based method for solving Reinforcement Learning problem building on [Rainbow](https://github.com/Kaixhin/Rainbow) implementation. 
+The BCTS algorithm is a search-based method for solving Reinforcement Learning building on [Rainbow](https://github.com/Kaixhin/Rainbow) [Hessel et al., 2017] and NVIDIA [CuLE](https://github.com/NVlabs/cule) [Dalton et al., 2019].
 
 ## Getting Started
 
