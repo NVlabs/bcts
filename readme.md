@@ -1,6 +1,10 @@
 # Bellman Corrected Tree Search (BCTS)
 
-This repository contains an implementation of the Bellman Corrected Tree Search (BCTS) algorithm, as described in the research paper of the same name. The algorithm is a search-based method for solving Markov Decision Processes (MDPs) and Partially Observable MDPs (POMDPs). 
+This repository contains an implementation of the Bellman Corrected Tree Search (BCTS) algorithm, as described in the paper:
+
+https://proceedings.neurips.cc/paper/2021/file/2bd235c31c97855b7ef2dc8b414779af-Paper.pdf
+
+The BCTS algorithm is a search-based method for solving Reinforcement Learning problem building on stable_baselines3 DQN implementation. 
 
 ## Getting Started
 
