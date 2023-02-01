@@ -4,7 +4,7 @@ This repository contains an implementation of the Bellman Corrected Tree Search 
 
 https://proceedings.neurips.cc/paper/2021/file/2bd235c31c97855b7ef2dc8b414779af-Paper.pdf
 
-The BCTS algorithm is a search-based method for solving Reinforcement Learning problem building on stable_baselines3 DQN implementation. 
+The BCTS algorithm is a search-based method for solving Reinforcement Learning problem building on Rainbow (https://github.com/Kaixhin/Rainbow) implementation. 
 
 ## Getting Started
 
