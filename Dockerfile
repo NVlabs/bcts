@@ -6,7 +6,7 @@ RUN pip install atari_py
 RUN pip install wandb plotly
 RUN git clone --recursive https://github.com/NVLabs/cule -b bfs
 RUN cd cule && python setup.py install && cd ..
-RUN git clone https://gitlab+deploy-token-1211537:LwxNzhihUozH1qyGFvSf@gitlab.com/galdl20/bcts.git
+RUN git clone https://github.com/NVlabs/bcts.git
 RUN git clone -b 1.3 https://github.com/Kaixhin/Rainbow.git
 RUN wget -i bcts/pretrained_paths.txt -P bcts/pretrained
 RUN pip uninstall -y importlib_metadata && pip install importlib_metadata -U
